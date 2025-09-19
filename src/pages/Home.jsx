@@ -20,7 +20,7 @@ const Home = () => {
             <div className="profile-photo-wrapper">
               <div className="profile-photo-container">
                 <img 
-                  src="\assets\mpnaya.jpg" 
+                  src="/mpnaya.jpg" 
                   alt="Mahesh Parajuli" 
                   className="profile-photo"
                 />
