@@ -12,6 +12,11 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  // Add this to each page component
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <section className="home">
       <div className="home-container">
@@ -97,3 +102,4 @@ const Home = () => {
 };
 
 export default Home;
+

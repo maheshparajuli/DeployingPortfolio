@@ -1,7 +1,12 @@
 import React from 'react';
 import './Pages.css';
+import { useEffect } from 'react';
 
 const Papers = () => {
+  // Add this to each page component
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <section className="page fade-in">
       <h2>Research Papers</h2>
